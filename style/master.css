@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Condensed:wght@700&display=swap");
+body .header-container header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 95px;
+  background-color: yellow;
+}
+body .header-container header .logo {
+  background-color: white;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .header-container header .logo .logo-image img {
+  width: 76px;
+  height: 51px;
+}
+body .header-container header .nav-bar {
+  background-color: white;
+  flex: 4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body .header-container header .nav-bar div a {
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #504a4a;
+}
+body .header-container header .search-bar {
+  background-color: white;
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .header-container header .search-bar .input {
+  width: 90%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: white;
+  padding: 11px;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: black;
+}
+body .header-container header .search-bar .input .search-icon {
+  background-color: white;
+  padding-right: 18px;
+}
+body .header-container header .search-bar .input input {
+  border: 0px;
+}
+body .header-container header .search-bar .input input:focus {
+  outline: none;
+}
+body .header-container header .account {
+  background-color: white;
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+body .header-container header .account .profile, body .header-container header .account .wish-list, body .header-container header .account .bag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}/*# sourceMappingURL=master.css.map */

@@ -1,0 +1,99 @@
+body{
+    .header-container{
+        
+        header{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            height: $header-height;
+        background-color: $header-bg-color;
+        .logo{
+            background-color: $logo-bg-color;
+            flex:1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .logo-image{
+                img{
+                    width: $logo-image-width;
+                    height: $logo-image-height;
+                }
+            }
+
+        }
+        .nav-bar{
+            background-color: $nav-bg-color;
+            flex:4;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            div{
+                a{
+                    text-decoration: none;
+                    font-family: 'Oswald', sans-serif;
+                    font-family: 'Roboto Condensed', sans-serif;
+                    color: rgb(80, 74, 74);
+                }
+            }
+
+        }
+        .search-bar{
+            background-color: $search-bg-color;
+            flex:3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .input{
+                width: 90%;
+                display:flex;
+                justify-content: left;
+                align-items: center;
+                background-color: white;
+                padding: 11px;
+                border-style: solid;
+                border-radius: 5px;
+                border-width: 1px;
+                border-color: black;
+                .search-icon{
+                    background-color: white;
+                    padding-right: 18px;
+    
+                }
+                input{
+                    border: 0px;
+
+                }
+                input:focus{
+                    outline: none;
+                }
+            }
+
+        }
+        .account{
+            background-color: $account-bg-color;
+            flex:2;
+            display: flex;
+            align-items: center;
+            .profile,.wish-list,.bag{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                flex:1;
+                
+
+            }
+            .wish-list{
+              
+
+            }
+            .bag{
+                
+                
+
+            }
+
+        }
+    }
+
+    }
+}
